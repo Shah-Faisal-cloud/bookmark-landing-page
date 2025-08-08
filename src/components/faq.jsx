@@ -9,15 +9,15 @@ function Faq() {
         },
         {
             question: "How can I request a new browser?",
-            answer: "You can request a new browser by reaching out to us through the contact form. We’re always open to feedback and love hearing what you’d like next on Bookmark.",
+            answer: "You can request a new browser through our contact form. We’re always open to feedback and love hearing what you’d like added next.",
         },
         {
             question: "Is there a mobile app?",
-            answer: "Yes, Bookmark has a mobile app! You can easily access your bookmarks on the go by downloading it from the App Store (iOS) or Google Play (Android). Sync happens automatically.",
+            answer: "Yes, Bookmark has a mobile app! You can access bookmarks on the go via iOS or Android. Just download it—sync happens automatically",
         },
         {
             question: "What about other chromium browsers?",
-            answer: "Bookmark is optimized for Chrome, but many Chromium-based browsers (like Brave, Edge, or Vivaldi) already support it. Still, for the best experience, we recommend Chrome while we continue improving cross-browser support.",
+            answer: "Bookmark works best on Chrome, but other Chromium browsers like Edge, Brave, and Vivaldi also support it. Chrome is still recommended.",
         },
     ];
     const [openIndex, setOpenIndex] = useState(null);
@@ -44,8 +44,8 @@ function Faq() {
                         </div>
                     )
                 })}
-                <Button text="More Info" variant="blue" className="self-center"/>
             </div>
+                <Button text="More Info" variant="blue" className="self-center -mt-5"/>
         </section>
     );
 };
