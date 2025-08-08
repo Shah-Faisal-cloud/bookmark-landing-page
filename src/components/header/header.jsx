@@ -21,7 +21,7 @@ function Header() {
                 <Button text="Login" variant="red" className="text-sm uppercase" onClick={() => {window.location.href = '#login'}}/>
             </nav>
             <button className="block md:hidden">
-                <img src="/icon-hamburger.svg" alt="Hamburger icon" onClick={openMenu}/>
+                <img src="icon-hamburger.svg" alt="Hamburger icon" onClick={openMenu}/>
             </button>
             {isMenuOpen && <MobileMenu setIsMenuOpen={setIsMenuOpen}/>}
         </header>

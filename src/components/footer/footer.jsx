@@ -13,8 +13,8 @@ function Footer() {
                 </ul>
             </nav>
             <div className="flex flex-col gap-8 md:ml-auto md:flex-row">
-                <img src="/icon-facebook.svg" alt="Facebook Icon" className="text-[var(--red)] hover:cursor-pointer hover:stroke-current"/>
-                <img src="/icon-twitter.svg" alt="Twitter Icon" className="text-[var(--red)] hover:cursor-pointer hover:stroke-current"/>
+                <img src="icon-facebook.svg" alt="Facebook Icon" className="text-[var(--red)] hover:cursor-pointer hover:stroke-current"/>
+                <img src="icon-twitter.svg" alt="Twitter Icon" className="text-[var(--red)] hover:cursor-pointer hover:stroke-current"/>
             </div>
         </footer>
     );
