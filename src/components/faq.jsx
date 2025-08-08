@@ -36,7 +36,7 @@ function Faq() {
                         <div className="flex flex-col gap-5" key={index}>
                             <button className="flex justify-between pb-5 border-b text-start gap-x-5" onClick={toggle}>
                                 <span className="text-[var(--blue)] font-[500] hover:text-[var(--red)] transition-colors duration-300 ease-in">{faq.question}</span>
-                                <img src="/icon-arrow.svg" alt="" className={`object-contain transition-transform duration-300 ${openIndex === index ? "rotate-180" : "rotate-0"}`} />
+                                <img src="icon-arrow.svg" alt="" className={`object-contain transition-transform duration-300 ${openIndex === index ? "rotate-180" : "rotate-0"}`} />
                             </button>
                             <div className={`transition-all duration-300 ease-linear ${openIndex === index ? "max-h-20" : "max-h-0"}`}>
                                 {openIndex === index && <p className="w-full text-gray-500">{faq.answer}</p>}

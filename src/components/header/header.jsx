@@ -10,7 +10,7 @@ function Header() {
     return (
         <header className="flex items-center justify-between px-8 py-10 lg:px-20">
             <a href="#">
-                <img src="/logo-bookmark.svg" alt="A brand logo" className="object-contain" />
+                <img src="logo-bookmark.svg" alt="A brand logo" className="object-contain" />
             </a>
             <nav className="items-center hidden md:flex gap-x-12">
                 <ul className="flex gap-x-8">

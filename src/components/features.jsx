@@ -6,13 +6,13 @@ function Features() {
     const features = [
         {
             title: "Simple Bookmarking",
-            img: "/illustration-features-tab-1.svg",
+            img: "illustration-features-tab-1.svg",
             heading: "Bookmark in one click",
             description: "Organize your bookmarks however you like. Our simple drag and drop interface gives you complete control over how you manage your favourite sites.",
         },
         {
             title: "Speedy Searching",
-            img: "/illustration-features-tab-2.svg",
+            img: "illustration-features-tab-2.svg",
             heading: "Intelligent Search",
             description: "Our powerful search feature will help you find saved sites in no time at all. No need to trawl through all of your bookmarks.",
         },

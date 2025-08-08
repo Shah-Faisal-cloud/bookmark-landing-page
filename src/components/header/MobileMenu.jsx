@@ -6,7 +6,7 @@ function MobileMenu({setIsMenuOpen}) {
             <div className="flex flex-col justify-between gap-y-4">
                 <div className="flex justify-around max-[550px]:justify-between border-bottom pb-10">
                     <a href="#">
-                        <img src="/logo-bookmark_2.svg" alt="A brand logo" />
+                        <img src="logo-bookmark_2.svg" alt="A brand logo" />
                     </a>
                     <button onClick={() => setIsMenuOpen(false)}>
                         <img src="/icon-close.svg" alt="Close icon arrow" className="w-5" />

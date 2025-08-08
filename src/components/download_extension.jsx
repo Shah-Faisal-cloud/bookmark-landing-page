@@ -23,7 +23,7 @@ function ExtensionCard({ browser, minVersion, className=""}) {
                     <span className="text-gray-400">Minimum Version {minVersion}</span>
             </div>
             <div className="flex flex-col items-center gap-y-5">
-                <img src="/bg-dots.svg" alt="A line of dots" />
+                <img src="bg-dots.svg" alt="A line of dots" />
                 <Button text="Add & install extension" variant="blue" />
             </div>
         </div>
