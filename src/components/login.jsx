@@ -17,7 +17,7 @@ function Login() {
                     <div className={`relative rounded-md md:basis-[70%] ${!isValid ? 'bg-[var(--red)] border-2 border-[var(--red)]' : ''}`}>
                         <input type="email" name="email" placeholder="Enter your email address" onBlur={ValidateEmail} className="relative w-full px-5 py-3 rounded-md outline-none placeholder:text-sm" />
                         <span className={`text-[var(--gray)] italic py-1 px-5 text-xs ${!isValid ? 'visible' : 'invisible'}`}>Whoops, make sure it's an email</span>
-                        <img src="/icon-error.svg" alt="An Error Icon" className={`absolute top-[20%] right-5 ${!isValid ? 'block' : 'hidden'}`} />
+                        <img src="icon-error.svg" alt="An Error Icon" className={`absolute top-[20%] right-5 ${!isValid ? 'block' : 'hidden'}`} />
                     </div>
                     <Button text="Contact Us" variant="red" className="hover:bg-white font-[500] md:basis-[30%] py-[10px]" />
                 </div>
